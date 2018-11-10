@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Oswald|Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(234, 235, 236);
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #54428E;
+    padding: 20px;
+    display: flow-root;
+    width: 100%;
+}
+
+nav h2{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+nav .link-container {
+    float: right;
+    color: white;
+}
+
+nav .link-container:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.link-container .links {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link-container .log-in {
+    float: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.link-container ul {
+    margin: 0 10px;
+}
+
+.link-container ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 10px;
+
+}
+
+.link-container ul li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.link-container ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.link-container ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.link-container ul li a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+.link-container ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+.link-container ul.log-in li {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+section#section1 {
+    position: relative;
+    margin-top: 100px;
+}
+
+
+section#section1 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400%;
+    color: white;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+section.lorem:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+section.lorem p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+    color: white;
+    background: #8963BA;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+    width: 30.33333%;
+}
+
+.tiles {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+    display: flow-root;
+}
+
+.tiles:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.tile {
+    margin: 30px;
+}
+
+.tile:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+
+.tiles .first img, p {
+    float: right;
+    margin: 1%;
+    padding: 1%;
+    width: 48%;
+}
+
+.tiles .second img, p {
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    width: 48%;
+}
+
+.tiles .third img, p {
+    float: right;
+    margin: 1%;
+    padding: 1%;
+    width: 48%;
+}
+
+footer {
+    color: white;
+    padding: 30px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background: #54428E;
+    display: flow-root;
+}
+
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer ul {
+    text-align: center;
+    float:left;
+    width: 31%;
+    padding: 1%;
+    margin: 1%;
+}
+
+footer ul:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+footer p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center
+}

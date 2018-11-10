@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Oswald|Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(234, 235, 236);
+}
+
+.form-container {
+    width: 70%;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+.form-container:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.form-container img {
+    float: left;
+    width: 30%;
+}
+
+.form-container .log-in, .sign-up {
+    float: left;
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.form-container input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+}
+
+.form-container button[type="submit"] {
+    width: 25%;
+    padding: 10px;
+    border: 0px solid;
+    color: white;
+    background-color: #54428E;
+}
+
+.form-container button[type="submit"]:hover, .form-container button[type="submit"]:active {
+    background: #8963BA;
+    cursor: pointer;
+}
